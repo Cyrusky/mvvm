@@ -1,5 +1,5 @@
-import {CounterVM} from "./viewModel/counterVM.ts";
-import {IoC} from "./configs/IoC.ts";
+import {CounterVM} from "../viewModel/counterVM.ts";
+import {IoC} from "../configs/IoC.ts";
 
 
 export enum ViewModel {

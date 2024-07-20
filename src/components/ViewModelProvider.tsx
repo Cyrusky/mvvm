@@ -1,5 +1,5 @@
 import {createContext, FC, PropsWithChildren} from "react";
-import {ViewModels, ViewModelType} from "../useViewModel.ts";
+import {ViewModels, ViewModelType} from "../hooks/useViewModel.ts";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 //@ts-expect-error

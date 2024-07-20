@@ -2,7 +2,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {observer} from "mobx-react";
-import {useViewModel, ViewModel} from "./useViewModel.ts";
+import {useViewModel, ViewModel} from "./hooks/useViewModel.ts";
 
 export const App = observer(() => {
   const counterVM = useViewModel(ViewModel.CounterVM)
